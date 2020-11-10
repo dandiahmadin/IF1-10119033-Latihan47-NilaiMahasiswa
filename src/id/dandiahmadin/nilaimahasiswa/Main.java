@@ -24,7 +24,7 @@ public class Main {
         System.out.println("UTS\t\t= " + mhs.getUts());
         System.out.println("UAS\t\t= " + mhs.getUas());
         
-        mhs.setNilaiAkhir(mhs.hitungNilaiAkhir(mhs.getQuiz(), mhs.getUts(), mhs.getUas()));
+        mhs.setNilaiAkhir(mhs.hitungNilaiAkhir());
         System.out.println("\nNilai Akhir\t= " + mhs.getNilaiAkhir());
         
         mhs.setIndex(mhs.indexNilai(mhs.getNilaiAkhir()));

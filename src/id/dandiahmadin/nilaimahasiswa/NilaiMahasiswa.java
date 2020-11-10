@@ -59,7 +59,7 @@ public class NilaiMahasiswa {
         return nilaiAkhir;
     }
     
-    public double hitungNilaiAkhir(double quiz, double uts, double uas) {
+    public double hitungNilaiAkhir() {
         return (0.2 * quiz) + (0.3 * uts) + (0.5 * uas);
     }
     
